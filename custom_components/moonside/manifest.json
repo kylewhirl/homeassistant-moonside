@@ -1,0 +1,10 @@
+{
+  "domain": "moonside",
+  "name": "Moonside",
+  "version": "0.1.0",
+  "documentation": "https://github.com/kylewhirl/homeassistant-moonside",
+  "requirements": [],
+  "codeowners": ["@kyleworrall"],
+  "config_flow": true,
+  "iot_class": "cloud_push"
+}

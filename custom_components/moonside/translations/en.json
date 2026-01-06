@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Connect Home Assistant to your Moonside account. Theme names are optional and can be provided as a comma or newline separated list.",
+        "data": {
+          "email": "Email",
+          "password": "Password",
+          "theme_switches": "Theme names",
+          "enable_polling": "Enable periodic polling",
+          "polling_interval": "Polling interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "auth": "Email or password was rejected by Moonside.",
+      "connection": "Unable to reach the Moonside cloud.",
+      "unknown": "Unexpected error while talking to Moonside."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "theme_switches": "Theme names",
+          "enable_polling": "Enable periodic polling",
+          "polling_interval": "Polling interval (seconds)"
+        }
+      }
+    }
+  }
+}
